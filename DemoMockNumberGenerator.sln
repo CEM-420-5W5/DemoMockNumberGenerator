@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35219.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoMockNumberGenerator", "DemoMockNumberGenerator\DemoMockNumberGenerator.csproj", "{2E324F73-EBEC-48CC-92AE-16B6E64A516B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoMockNumberGeneratorTests", "DemoMockNumberGeneratorTests\DemoMockNumberGeneratorTests.csproj", "{B6D677D7-A20C-45FF-95E5-7410FAEB49B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E324F73-EBEC-48CC-92AE-16B6E64A516B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E324F73-EBEC-48CC-92AE-16B6E64A516B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E324F73-EBEC-48CC-92AE-16B6E64A516B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E324F73-EBEC-48CC-92AE-16B6E64A516B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6D677D7-A20C-45FF-95E5-7410FAEB49B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6D677D7-A20C-45FF-95E5-7410FAEB49B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6D677D7-A20C-45FF-95E5-7410FAEB49B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6D677D7-A20C-45FF-95E5-7410FAEB49B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9FC59FCA-04A6-4311-BA95-56554ADD783D}
+	EndGlobalSection
+EndGlobal
