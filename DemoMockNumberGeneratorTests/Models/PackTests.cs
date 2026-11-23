@@ -46,8 +46,9 @@ namespace DemoMockNumberGenerator.Models.Tests
         // 1. Créer un MonRandomNumberGenerator et l'utiliser dans OpenPack (Toujours le même problème)
         // 2. Créer un IRandomNumberGenerator
         //    a. Créer un NotSoRandomNumberGenerator
-        //    b. Ajouter une option pour le 2e test  
-        // 3. Créer un MockIRandomNumberGenerator avec un SetupSequence
+        //    b. Ajouter une option pour le 2e test
+        // 3. Explication des Mocks (Info)  
+        // 4. Créer un MockIRandomNumberGenerator avec un SetupSequence
 
 
     }
