@@ -12,7 +12,7 @@ namespace DemoMockNumberGenerator.Models.Tests
     public class PackTests
     {
         [TestMethod()]
-        public void OpenPackTest()
+        public void OpenPackBasicTest()
         {
             Pack pack = new Pack()
             {
@@ -26,9 +26,29 @@ namespace DemoMockNumberGenerator.Models.Tests
             Assert.AreEqual(2, rarities.Count(r => r == Pack.Rarity.Common));
         }
 
+        [TestMethod()]
+        public void OpenPackPremiumTest()
+        {
+            Pack pack = new Pack()
+            {
+                NbCards = 4,
+                RareProbability = 0.75f
+            };
+
+            var rarities = pack.OpenPack();
+
+            Assert.AreEqual(4, rarities.Count);
+            Assert.AreEqual(1, rarities.Count(r => r == Pack.Rarity.Common));
+            Assert.AreEqual(3, rarities.Count(r => r == Pack.Rarity.Rare));
+        }
+
         // Les étpaes:
-        // 1. Créer un MonRandomNumberGenerator
-        // 2. Créer un IRandomNumberGenerator et un NotSoRandomNumberGenerator
+        // 1. Créer un MonRandomNumberGenerator et l'utiliser dans OpenPack (Toujours le même problème)
+        // 2. Créer un IRandomNumberGenerator
+        //    a. Créer un NotSoRandomNumberGenerator
+        //    b. Ajouter une option pour le 2e test  
         // 3. Créer un MockIRandomNumberGenerator avec un SetupSequence
+
+
     }
 }
